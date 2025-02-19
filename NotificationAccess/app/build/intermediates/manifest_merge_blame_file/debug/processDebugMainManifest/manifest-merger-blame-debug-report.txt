@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notificationaccess"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+13-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:6:5-92
+13-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:6:22-90
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:7:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.notificationaccess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.notificationaccess.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:9:5-37:19
+23        android:allowBackup="true"
+23-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.15.0] C:\Users\thust\.gradle\caches\8.9\transforms\dec158b06d870a971d486a9a4eea480a\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.NotificationAccess"
+34-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:18:9-56
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:14:9-44
+36        <activity
+36-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:20:9-28:20
+37            android:name="com.example.notificationaccess.MainActivity"
+37-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:21:13-41
+38            android:exported="true"
+38-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:22:13-36
+39            android:theme="@style/Theme.NotificationAccess" >
+39-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:23:13-60
+40            <intent-filter>
+40-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:24:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:25:17-69
+41-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:26:17-77
+43-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:29:9-36:19
+48            android:name="com.example.notificationaccess.LineNotificationService"
+48-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:30:13-52
+49            android:exported="true"
+49-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:32:13-36
+50            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+50-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:31:13-87
+51            <intent-filter>
+51-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:33:13-35:29
+52                <action android:name="android.service.notification.NotificationListenerService" />
+52-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:34:17-98
+52-->C:\Users\thust\SearchGameSchedule\NotificationAccess\app\src\main\AndroidManifest.xml:34:25-96
+53            </intent-filter>
+54        </service>
+55
+56        <activity
+56-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\d522c66d19698670e733051facbbdec6\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+57            android:name="androidx.compose.ui.tooling.PreviewActivity"
+57-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\d522c66d19698670e733051facbbdec6\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+58            android:exported="true" />
+58-->[androidx.compose.ui:ui-tooling-android:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\d522c66d19698670e733051facbbdec6\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+59        <activity
+59-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\8b9daa70064bc9e8d49c50d705b054a7\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:23:9-25:39
+60            android:name="androidx.activity.ComponentActivity"
+60-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\8b9daa70064bc9e8d49c50d705b054a7\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:24:13-63
+61            android:exported="true" />
+61-->[androidx.compose.ui:ui-test-manifest:1.6.6] C:\Users\thust\.gradle\caches\8.9\transforms\8b9daa70064bc9e8d49c50d705b054a7\transformed\ui-test-manifest-1.6.6\AndroidManifest.xml:25:13-36
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+65            android:authorities="com.example.notificationaccess.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\thust\.gradle\caches\8.9\transforms\6ec31a42e996759bfaaf503124d4c482\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thust\.gradle\caches\8.9\transforms\d5b072018bd24256cdd3cb30357eef72\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thust\.gradle\caches\8.9\transforms\d5b072018bd24256cdd3cb30357eef72\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\thust\.gradle\caches\8.9\transforms\d5b072018bd24256cdd3cb30357eef72\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+76        </provider>
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\thust\.gradle\caches\8.9\transforms\face72c0a56b1215e918d830d1aefc75\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>
